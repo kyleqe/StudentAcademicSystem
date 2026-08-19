@@ -21,7 +21,7 @@ public class StudentAcademicSystem {
         System.out.println("NAME: " + name);
         System.out.println("AGE: " + age);
         System.out.println("MARK: " + mark);
-        System.out.println("ATTENDENCE: " + attendence);
+        System.out.println("ATTENDENCE: " + attendance);
         
         // Age decsion
         if (age >= 18){
