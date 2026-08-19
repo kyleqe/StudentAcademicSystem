@@ -30,7 +30,16 @@ public class StudentAcademicSystem {
         else{
             System.out.println("AGE GROUP: Minor");
         }
+        
+        // Special category
+        if (age < 18 || age > 60){
+            System.out.println("STUDENT CATEGORY: Special");
+        }
+        else{
+            System.out.println("STUDENT CATEGORY: Standard");
+        }
+        
+     
     }
 }
-
 
