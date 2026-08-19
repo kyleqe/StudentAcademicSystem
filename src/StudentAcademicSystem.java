@@ -62,6 +62,31 @@ public class StudentAcademicSystem {
             academicResult = "Fail";
         }
         System.out.println("ACADEMIC RESULT: " + academicResult);
+        
+        //Examination eligility
+        boolean examEligible = (mark >= 50 && attendence >= 75 );
+        if (examEligible){
+            System.out.println("EXAMINATION ELIGILITY: Eligible for examination");
+        
+          //cheacking to see if you qualify for special category
+          if (category = "Special"){
+            System.out.println("Eligible for examination for special category");
+          }
+          else{
+            System.out.println("Eligible for examination for stantard category");
+          }
+        }
+        else{
+            System.out.println("EXAMINATION ELIGILITY: Not eligible for examination");
+            if (mark < 50){
+                System.out.println("REASON: Mark is below pass requirement");
+            }
+            if (attendence < 75){
+                System.out.println("REASON: Attendence is below 75%");
+            }
+        }
+        
+        
      
     }
 }
