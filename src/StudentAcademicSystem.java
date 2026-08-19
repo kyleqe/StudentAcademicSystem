@@ -22,7 +22,14 @@ public class StudentAcademicSystem {
         System.out.println("AGE: " + age);
         System.out.println("MARK: " + mark);
         System.out.println("ATTENDENCE: " + attendence);
-      
+        
+        // Age decsion
+        if (age >= 18){
+            System.out.println("AGE GROUP: Adult");
+        }
+        else{
+            System.out.println("AGE GROUP: Minor");
+        }
     }
 }
 
