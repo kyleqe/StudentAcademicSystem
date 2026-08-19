@@ -14,6 +14,14 @@ public class StudentAcademicSystem {
         double mark = input.nextDouble();
         System.out.print("ENTER STUDENT ATTENDENCE (%): ");
         double attendence = input.nextDouble();
+        
+         // Display student infor
+        System.out.println();
+        System.out.println("  STUDENT INFORMATION  ");
+        System.out.println("NAME: " + name);
+        System.out.println("AGE: " + age);
+        System.out.println("MARK: " + mark);
+        System.out.println("ATTENDENCE: " + attendence);
       
     }
 }
