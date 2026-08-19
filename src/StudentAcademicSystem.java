@@ -91,7 +91,7 @@ public class StudentAcademicSystem {
         
         //free discount(re-do)
         int discount;
-        if (category = "Special"){
+        if (category.equals("Special")){
             discount = 20;
         }
         else{
