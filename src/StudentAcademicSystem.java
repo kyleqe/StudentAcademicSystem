@@ -72,7 +72,7 @@ public class StudentAcademicSystem {
             System.out.println("EXAMINATION ELIGILITY: Eligible for examination");
         
           //cheacking to see if you qualify for special category
-          if (category = "Special"){
+          if (category.equals("Special")){
             System.out.println("Eligible for examination for special category");
           }
           else{
