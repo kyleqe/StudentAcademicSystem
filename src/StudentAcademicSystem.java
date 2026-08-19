@@ -96,6 +96,15 @@ public class StudentAcademicSystem {
         }
         System.out.println("free discount: " + discount + "%");
         
+        //Admission condition
+        boolean admitted = (age >= 18 && mark >= 50 && attendance >= 75);
+        if (admitted){
+            System.out.println("ADMISSION STATUS: Admitted");
+        }
+        else{
+            System.out.println("ADMISSION STATUS: Not admitted");
+        }
+        
      
     }
 }
