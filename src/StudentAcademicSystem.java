@@ -86,6 +86,15 @@ public class StudentAcademicSystem {
             }
         }
         
+        //free discount
+        int discount;
+        if (category = "Special"){
+            discount = 20;
+        }
+        else{
+            discount = 5;
+        }
+        System.out.println("free discount: " + discount + "%");
         
      
     }
