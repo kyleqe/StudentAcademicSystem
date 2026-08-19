@@ -9,13 +9,20 @@ public class StudentAcademicSystem {
     String category;
     
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         StudentAcademicSystem student = new StudentAcademicSystem();
         
         //getting student infor
-        System.out.println(" STUDENT ACADEMIC SYSTEM");
-        System.out.println("ENTER STUDENT NAME: ");
-        student.name = sc.nextLine();
+        
+        System.out.print("ENTER STUDENT NAME: ");
+        student.name = input.nextLine();
+        System.out.print("ENTER STUDENT AGE: ");
+        student.age = input.nextInt();
+        System.out.print("ENTER STUDENT MARK (0-100): ");
+        student.mark = input.nextDouble();
+        System.out.print("ENTER STUDENT ATTENDENCE (%): ");
+        student.attendence = input.nextDouble();
+      
     }
 }
 
