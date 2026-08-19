@@ -114,6 +114,21 @@ public class StudentAcademicSystem {
             System.out.println("No emergency academic support needed");
         }
         
+        //Service Menu
+        System.out.println();
+        System.out.println("STUDENT SERVICES");
+        System.out.println("1. ACADEMIC RESULT");
+        System.out.println("2. ATTENDANCE");
+        System.out.println("3. FEES");
+        System.out.println("4. STUDENT SUPPORT");
+        System.out.println("5. EXIT");
+        System.out.println("SELECT A CHOICE: ");
+        int choice = input.nextInt();
+        
+        
+        
+        
+        
      
     }
 }
