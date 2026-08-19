@@ -39,6 +39,11 @@ public class StudentAcademicSystem {
             System.out.println("STUDENT CATEGORY: Standard");
         }
         
+        // Mark validation
+        if (mark >= 0 && mark <= 100){
+            System.out.println("MARK VALIDATION: Valid mark");
+        }
+        
      
     }
 }
