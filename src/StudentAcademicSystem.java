@@ -105,6 +105,15 @@ public class StudentAcademicSystem {
             System.out.println("ADMISSION STATUS: Not admitted");
         }
         
+        // Emergency Academic support
+        boolean supportNeeded = (mark <= 40 || attendance <= 50 );
+        if (supportNeeded){
+            System.out.println("Academic support needed");
+        }
+        else{
+            System.out.println("No emergency academic support needed");
+        }
+        
      
     }
 }
