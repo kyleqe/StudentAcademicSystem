@@ -154,6 +154,10 @@ public class StudentAcademicSystem {
         }
         
         }
+        //mark is out of range
+        else{
+            System.out.println("MARK VALIDATION: Invalid mark. Mark must be between 0-100");
+        }
         
      
     }
