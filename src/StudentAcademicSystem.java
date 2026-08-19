@@ -42,7 +42,7 @@ public class StudentAcademicSystem {
         // Mark validation
         if (mark >= 0 && mark <= 100){
             System.out.println("MARK VALIDATION: Valid mark");
-        }
+        
         
         // determine Academic result
         String academicResult;
@@ -125,9 +125,35 @@ public class StudentAcademicSystem {
         System.out.println("SELECT A CHOICE: ");
         int choice = input.nextInt();
         
+        // Switch case
+        switch (choice){
+            case 1: 
+                System.out.println("ACADEMIC RESULT: " + academicResult);
+                break;
+            case 2:
+                System.out.println("ATTENDANCE: " + attendance + "%");
+                break;
+            case 3:
+                System.out.println("FEE DISCOUNT: " + discount + "%");
+                break;
+            case 4:
+                if (supportNeeded){
+                    System.out.println("STUDENT SUPPORT: Academic support needed");
+                }
+                else{
+                    System.out.println("STUDENT SUPPORT: Academic support not needed" );
+                }
+                break;
+            case 5:
+                System.out.println("EXITING SYSTEM");
+                break;
+                
+            default:
+                System.out.println("INVALID OPTION");
+                break;          
+        }
         
-        
-        
+        }
         
      
     }
