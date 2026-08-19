@@ -86,7 +86,7 @@ public class StudentAcademicSystem {
             }
         }
         
-        //free discount
+        //free discount(re-do)
         int discount;
         if (category = "Special"){
             discount = 20;
