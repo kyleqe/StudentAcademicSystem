@@ -12,8 +12,8 @@ public class StudentAcademicSystem {
         int age = input.nextInt();
         System.out.print("ENTER STUDENT MARK (0-100): ");
         double mark = input.nextDouble();
-        System.out.print("ENTER STUDENT ATTENDENCE (%): ");
-        double attendence = input.nextDouble();
+        System.out.print("ENTER STUDENT ATTENDANCE (%): ");
+        double attendance = input.nextDouble();
         
          // Display student infor
         System.out.println();
