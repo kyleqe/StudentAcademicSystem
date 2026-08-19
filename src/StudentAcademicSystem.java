@@ -32,10 +32,13 @@ public class StudentAcademicSystem {
         }
         
         // Special category
+        String category;
         if (age < 18 || age > 60){
+            category = "Special";
             System.out.println("STUDENT CATEGORY: Special");
         }
         else{
+            category = "Standard";
             System.out.println("STUDENT CATEGORY: Standard");
         }
         
