@@ -64,7 +64,7 @@ public class StudentAcademicSystem {
         System.out.println("ACADEMIC RESULT: " + academicResult);
         
         //Examination eligility
-        boolean examEligible = (mark >= 50 && attendence >= 75 );
+        boolean examEligible = (mark >= 50 && attendance >= 75 );
         if (examEligible){
             System.out.println("EXAMINATION ELIGILITY: Eligible for examination");
         
@@ -81,7 +81,7 @@ public class StudentAcademicSystem {
             if (mark < 50){
                 System.out.println("REASON: Mark is below pass requirement");
             }
-            if (attendence < 75){
+            if (attendance < 75){
                 System.out.println("REASON: Attendence is below 75%");
             }
         }
