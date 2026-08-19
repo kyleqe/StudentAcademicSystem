@@ -44,6 +44,24 @@ public class StudentAcademicSystem {
             System.out.println("MARK VALIDATION: Valid mark");
         }
         
+        // determine Academic result
+        String academicResult;
+        if (mark >= 90){
+            academicResult = "Exellent";
+        }
+        else if (mark >= 75){
+            academicResult = "Very good";
+        }
+        else if (mark >= 60){
+            academicResult = "Good";
+        }
+        else if (mark >= 50){
+            academicResult = "Pass";
+        }    
+        else{
+            academicResult = "Fail";
+        }
+        System.out.println("ACADEMIC RESULT: " + academicResult);
      
     }
 }
